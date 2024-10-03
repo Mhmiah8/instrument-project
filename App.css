@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#drum-machine {
+  background-color: #282c34;
+  color: white;
+  width: 300px;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.pad-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.drum-pad {
+  background-color: #61dafb;
+  border: none;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.drum-pad:hover {
+  background-color: #21a1f1;
+}
+
+button {
+  background-color: #61dafb;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+#display {
+  margin: 20px 0;
+  font-size: 18px;
+}
